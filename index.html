@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills Building Security</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo-mark" aria-hidden="true">S</div>
+      <div>
+        <span class="brand-name">Skills Building Security</span>
+        <span class="brand-subtitle">Founded by Ebole Junior</span>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#services">SERVICES</a>
+      <a href="#contact">CONTACT US</a>
+      <a href="#login">LOGIN</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-copy">
+        <p class="eyebrow">Welcome to</p>
+        <h1>Skills Building Security</h1>
+        <p>Learn security skills, join our community, and build a professional future with support from expert trainers.</p>
+        <a href="#services" class="button">Explore Services</a>
+      </div>
+      <div class="slideshow">
+        <div class="slide active">
+          <img src="WhatsApp Image 2026-03-13 at 2.44.54 PM.jpeg" alt="People learning on laptops" />
+        </div>
+        <div class="slide">
+          <img src="—Pngtree—digital photo camera_15124099.png" alt="People working together on a laptop" />
+        </div>
+        <div class="slide">
+          <img src="WhatsApp Image 2026-03-13 at 2.44.48 PM.jpeg" />
+        </div>
+        <div class="slide-controls">
+          <button id="prevSlide" aria-label="Previous slide">&#10094;</button>
+          <button id="nextSlide" aria-label="Next slide">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <h2>About Skills Building Security</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Hi, I am <strong>Ebole Junior</strong>, founder of Skills Building Security. Our mission is to empower learners in Buea and Kumba with practical security and IT skills.</p>
+          <p>Skills Building Security is a training and membership program that provides professional guidance, hands-on learning, and support for people who want to build a strong career in cybersecurity and digital safety.</p>
+          <p>We combine structured learning, mentorship, and community-building to help you achieve your goals faster.</p>
+        </div>
+        <div class="about-image">
+          <img src="DSC_2324.JPG.jpg" alt="Ebole Junior profile picture" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <h2>Our Services</h2>
+      <p>At Skills Building Security, we provide professional assistance and membership support with a clear pathway to learning, certification preparation, and real-world security experience.</p>
+      <div class="services-grid">
+        <article>
+          <h3>Membership Benefits</h3>
+          <p>Join our membership to access live classes, community coaching, and exclusive training materials.</p>
+        </article>
+        <article>
+          <h3>Professional Assistance</h3>
+          <p>Receive guidance from experienced trainers and mentors who help you develop security skills tailored to real job requirements.</p>
+        </article>
+        <article>
+          <h3>How to Join</h3>
+          <p>Anyone can sign up by creating an account on this website and choosing a membership plan. We offer flexible options for beginners and advanced learners.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section testimonials-section">
+      <h2>What Our Members Say</h2>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <img src="download (9).jpg" alt="Testimonial member Ama" />
+          <p>“Skills Building Security helped me gain the confidence and tools I needed to start a new career in cybersecurity.”</p>
+          <span>- Ama</span>
+        </article>
+        <article class="testimonial-card">
+          <img src="download (10).jpg" alt="Testimonial member Daniel" />
+          <p>“The trainers were professional, supportive, and practical. I learned so much in a short time.”</p>
+          <span>- Daniel</span>
+        </article>
+        <article class="testimonial-card">
+          <img src="download (11).jpg" alt="Testimonial member Joy" />
+          <p>“Becoming a member gave me access to real projects and a community that keeps me motivated.”</p>
+          <span>- Joy</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Phone:</strong> +237675182035</p>
+          <p><strong>Locations:</strong> Buea and Kumba Skills Building</p>
+        </div>
+        <div>
+          <p>Ready to start your security journey? Sign in or login below and become a member today.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="login" class="section login-section">
+      <div class="login-card">
+        <h2>Create Account</h2>
+        <form id="signupForm">
+          <label for="signupUsername">Username</label>
+          <input type="text" id="signupUsername" placeholder="Enter username" required />
+          <label for="signupPassword">Password</label>
+          <input type="password" id="signupPassword" placeholder="Create password" required />
+          <button type="submit" class="button">Sign In</button>
+        </form>
+      </div>
+      <div class="login-card">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="loginUsername">Username</label>
+          <input type="text" id="loginUsername" placeholder="Enter username" required />
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" placeholder="Enter password" required />
+          <button type="submit" class="button">Login</button>
+        </form>
+        <div id="loginMessage" class="login-message" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Skills Building Security. Built for learners in Buea and Kumba.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
